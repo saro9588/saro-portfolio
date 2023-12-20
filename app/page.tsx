@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <h1>Saro's Portfolio</h1>
+      <h1>Saro&apos;s Portfolio</h1>
       <Link href="/projects">Projects</Link>
 
       <div className="prose prose-neutral dark:prose-invert">
