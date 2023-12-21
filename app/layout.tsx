@@ -16,6 +16,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <style>
+          {`
+            body {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+              font-family: ${inter};
+            }
+          `}
+        </style>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
