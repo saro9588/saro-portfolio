@@ -1,14 +1,14 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main>
-      <h1>Saro&apos;s Portfolio</h1>
-      <Link href="/projects">Projects</Link>
-
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>I am a LA based</p>
+    <main className="flex justify-center items-center text-center h-full">
+      <div>
+        <h1>Saro&apos;s Portfolio</h1>
+        <Link href="/projects">Projects</Link>
+        <div>
+          <p>I am a LA based software developer </p>
+        </div>
       </div>
-      <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
     </main>
   );
 }

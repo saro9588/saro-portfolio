@@ -17,17 +17,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <style>
+        {/* <style>
           {`
             body {
               display: flex;
               justify-content: center;
               align-items: center;
-              height: 100vh;
+              height: 75vh;
               font-family: ${inter};
             }
           `}
-        </style>
+        </style> */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>

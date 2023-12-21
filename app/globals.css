@@ -19,3 +19,10 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+.text-primary {
+  color: black;
+}
+.dark .text-primary {
+  color: white;
+}
