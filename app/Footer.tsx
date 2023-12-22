@@ -14,7 +14,7 @@ const Footer = () => {
             <CiPhone />
           </Link>
           <Link href="tel:+18187266444">
-            <p className="sm:hidden">+1818-726-6444</p>
+            {/* <p className="sm:hidden">+1818-726-6444</p> */}
           </Link>
         </div>
         <Divider orientation="vertical" />
@@ -29,10 +29,9 @@ const Footer = () => {
         <div className="flex justify-left items-center space-x-5">
           <Link href="mailto:babikiansaro@gmail.com">
             <MdOutlineMail />
-            <p className="sm:hidden">babikiansaro@gmail.com</p>
           </Link>
           <Link href="mailto:babikiansaro@gmail.com">
-            <p className="sm:hidden">babikiansaro@gmail.com</p>
+            {/* <p className="sm:hidden">babikiansaro@gmail.com</p> */}
           </Link>
         </div>
       </div>
