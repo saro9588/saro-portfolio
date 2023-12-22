@@ -16,20 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* <style>
-          {`
-            body {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              height: 75vh;
-              font-family: ${inter};
-            }
-          `}
-        </style> */}
-      </head>
-      <body className={inter.className}>{children}</body>
+      <head></head>
+      <body className={`${inter.className} dark text-foreground bg-background`}>
+        {children}
+      </body>
     </html>
   );
 }
