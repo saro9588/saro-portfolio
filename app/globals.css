@@ -39,3 +39,17 @@ body {
 .navbar {
   background-color: grey;
 }
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust this as needed */
+}
+
+.text-container {
+  text-align: center;
+  max-width: 800px; /* Adjust this to control the width of the text */
+  padding: 20px;
+  margin: auto;
+}
