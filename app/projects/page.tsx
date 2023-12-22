@@ -26,10 +26,12 @@ const projects = () => {
                 height={0}
                 width={270}
               />
-              <Button>
+            </CardBody>
+            <div className="flex justify-center items-center h-full p-2">
+              <Button className="">
                 <Link href="/projects/members-app">Learn More</Link>
               </Button>
-            </CardBody>
+            </div>
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -52,10 +54,12 @@ const projects = () => {
                 height={0}
                 width={270}
               />
+            </CardBody>
+            <div className="flex justify-center items-center h-full p-2">
               <Button>
                 <Link href="/projects/bank-app">Learn More</Link>
               </Button>
-            </CardBody>
+            </div>
           </Card>
         </div>
       </div>
