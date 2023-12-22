@@ -26,3 +26,16 @@ body {
 .dark .text-primary {
   color: white;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: grey; /* Adjust as needed */
+  /* Additional styles */
+  /* ... */
+}
+
+.navbar {
+  background-color: grey;
+}

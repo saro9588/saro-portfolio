@@ -23,7 +23,7 @@ const projects = () => {
                 alt="Card background"
                 className="object-cover rounded-xl"
                 src="/membersApp.png"
-                height={0}
+                height={10}
                 width={270}
               />
             </CardBody>
@@ -51,7 +51,7 @@ const projects = () => {
                 alt="Card background"
                 className="object-cover rounded-xl"
                 src="/bankApp.png"
-                height={0}
+                height={10}
                 width={270}
               />
             </CardBody>
