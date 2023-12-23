@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 const inter = Inter({ subsets: ["latin"] });
 import "@radix-ui/themes/styles.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: `Saro's portfolio`,
@@ -17,11 +18,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark text-foreground bg-background">
-      <body className={`${inter.className} dark text-foreground bg-background`}>
-        <NavBar />
-        {children}
-        <Footer />
+    <html lang="en" className="light">
+      <body className={inter.className}>
+        <Providers>
+          <NavBar />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
