@@ -20,11 +20,14 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
-.text-primary {
+.text {
   color: black;
 }
-.dark .text-primary {
-  color: white;
+
+@media (prefers-color-scheme: dark) {
+  .text {
+    color: white;
+  }
 }
 
 .footer {
