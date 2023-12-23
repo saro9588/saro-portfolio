@@ -4,6 +4,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { CiPhone } from "react-icons/ci";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const Footer = () => {
   return (
@@ -34,6 +35,7 @@ const Footer = () => {
             {/* <p className="sm:hidden">babikiansaro@gmail.com</p> */}
           </Link>
         </div>
+        <ThemeSwitcher />
       </div>
     </footer>
   );
