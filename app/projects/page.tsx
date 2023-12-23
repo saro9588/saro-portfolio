@@ -85,24 +85,28 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-              <p className="text-tiny uppercase font-bold">Full Stack</p>
+              <p className="text-tiny uppercase font-bold">
+                Full Stack - Contributor
+              </p>
               <small className="text-default-500">
-                <Link href="">Visit Site</Link>
+                <Link href="https://github.com/saro9588/typescript-express-react">
+                  Visit Site
+                </Link>
               </small>
-              <h4 className="font-bold text-large">Bank App</h4>
+              <h4 className="font-bold text-large">ts-express-react</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl"
-                src="/bankApp.png"
+                src="/ts-express-react.png"
                 height={10}
                 width={270}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
               <Button>
-                <Link href="/projects/bank-app">Learn More</Link>
+                <Link href="/projects/ts-express-react">Learn More</Link>
               </Button>
             </div>
           </Card>

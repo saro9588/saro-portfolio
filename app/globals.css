@@ -34,13 +34,11 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: grey; /* Adjust as needed */
-  /* Additional styles */
-  /* ... */
+  background-color: #3c4d75;
 }
 
 .navbar {
-  background-color: grey;
+  background-color: #3c4d75;
 }
 
 .page-container {
