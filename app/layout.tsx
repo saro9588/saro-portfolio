@@ -6,6 +6,7 @@ import Footer from "./Footer";
 const inter = Inter({ subsets: ["latin"] });
 import "@radix-ui/themes/styles.css";
 import { Providers } from "./providers";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 export const metadata: Metadata = {
   title: `Saro's portfolio`,
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Providers>
           <NavBar />
           {children}
+          <ThemeSwitcher />
           <Footer />
         </Providers>
       </body>
