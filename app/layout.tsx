@@ -1,16 +1,15 @@
-"use client";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { NextUIProvider } from "@nextui-org/react";
 import "./globals.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 const inter = Inter({ subsets: ["latin"] });
+import "@radix-ui/themes/styles.css";
 
-// export const metadata: Metadata = {
-//   title: `Saro's portfolio`,
-//   description: "Checkout my latest projects!",
-// };
+export const metadata: Metadata = {
+  title: `Saro's portfolio`,
+  description: "Checkout my latest projects!",
+};
 
 export default function RootLayout({
   children,
@@ -18,13 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <NextUIProvider>
-          <NavBar />
-          {children}
-          <Footer />
-        </NextUIProvider>
+    <html lang="en" className="dark text-foreground bg-background">
+      <body className={`${inter.className} dark text-foreground bg-background`}>
+        <NavBar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
