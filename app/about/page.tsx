@@ -3,7 +3,7 @@ import React from "react";
 const Page = () => {
   return (
     <div className="page-container dark:text-white light:text-black">
-      <div className="text-default-500 text-container ">
+      <div className="text-default-800 text-container ">
         <p>
           I am a LA based software developer with experience in HTML, CSS,
           JavaScript, and the MERN stack. I am a recent graduate of the MIT xPro

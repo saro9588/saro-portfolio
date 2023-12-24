@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="text">
-      <body className={inter.className}>
+    <html lang="en" className="text text-default-800">
+      <body className={`${inter.className} text-default-800`}>
         <Providers>
           <NavBar />
           {children}

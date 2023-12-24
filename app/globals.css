@@ -34,11 +34,11 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #3c4d75;
+  background-color: rgb(96, 93, 73);
 }
 
 .navbar {
-  background-color: #3c4d75;
+  background-color: rgb(96, 93, 73);
 }
 
 .page-container {

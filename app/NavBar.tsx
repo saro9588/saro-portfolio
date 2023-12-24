@@ -10,7 +10,7 @@ export const NavBar = () => {
   return (
     <div className="navbar">
       <nav className="border-b mb-5 px-5 py-3">
-        <div className="flex h-7 justify-center items-center space-x-5">
+        <div className="flex h-7 justify-center items-center  space-x-5">
           <Divider orientation="vertical" />
           <Link
             className={`link ${pathname === "/" ? "text-green-200" : " "}`}
