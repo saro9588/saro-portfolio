@@ -8,8 +8,8 @@ import "@radix-ui/themes/styles.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: `Saro's portfolio`,
-  description: "Checkout my latest projects!",
+  title: `Saro Babikian`,
+  description: "Software Developer",
 };
 
 export default function RootLayout({
