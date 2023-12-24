@@ -110,6 +110,31 @@ const projects = () => {
               </Button>
             </div>
           </Card>
+          <Card className="py-4">
+            <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <p className="text-tiny uppercase font-bold">JavaScript </p>
+              <small className="text-default-500">
+                <Link href="https://github.com/saro9588/daily-js-practice">
+                  Visit Site
+                </Link>
+              </small>
+              <h4 className="font-bold text-large">JS-Practice-Problems</h4>
+            </CardHeader>
+            <CardBody className="overflow-visible py-2">
+              <Image
+                alt="Card background"
+                className="object-cover rounded-xl"
+                src="/javascript.webp"
+                height={10}
+                width={270}
+              />
+            </CardBody>
+            <div className="flex justify-center items-center h-full p-2">
+              <Button>
+                <Link href="/projects/js-practice-problems">Learn More</Link>
+              </Button>
+            </div>
+          </Card>
         </div>
         <div className="flex justify-center items-center mb-10 py-10">
           <Button>
