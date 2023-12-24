@@ -1,3 +1,4 @@
+import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 
@@ -7,9 +8,11 @@ const page = () => {
       <div>
         Bank App
         <div>
-          <Link href="https://saro-babikianfullstackbankingapp.netlify.app/#">
-            Visit Site
-          </Link>
+          <Button>
+            <Link href="https://saro-babikianfullstackbankingapp.netlify.app/#">
+              Visit Site
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

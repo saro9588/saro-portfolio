@@ -1,3 +1,4 @@
+import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 
@@ -7,10 +8,11 @@ const page = () => {
       <div>
         typescript-express-react
         <div>
-          {" "}
-          <Link href="https://github.com/saro9588/typescript-express-react">
-            Visit Site
-          </Link>
+          <Button>
+            <Link href="https://github.com/saro9588/typescript-express-react">
+              Visit Site
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

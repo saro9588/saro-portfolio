@@ -1,3 +1,4 @@
+import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 
@@ -7,10 +8,11 @@ const page = () => {
       <div>
         Here I practice JavasScript problems on a regular basis.
         <div>
-          {" "}
-          <Link href="https://github.com/saro9588/daily-js-practice">
-            Visit Site
-          </Link>
+          <Button>
+            <Link href="https://github.com/saro9588/daily-js-practice">
+              Visit Site
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,9 @@ const page = () => {
     <div className="page-container dark:text-white text-container">
       <div>Members App</div>
       <div>
-        <Link href="https://members-app-gilt.vercel.app/">Visit Site</Link>
+        <Button>
+          <Link href="https://members-app-gilt.vercel.app/">Visit Site</Link>
+        </Button>
       </div>
     </div>
   );
