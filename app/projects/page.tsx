@@ -6,9 +6,9 @@ import { Card, CardHeader, CardBody, Button } from "@nextui-org/react";
 const projects = () => {
   return (
     <>
-      <div className="flex justify-center items-center">
-        <div className="md:grid md:grid-cols-2 sm:grid-cols-1 gap-4 my-2 space-y-2">
-          <Card className="py-4">
+      <div className="grid justify-center items-center h-150vh">
+        <div className="md:grid md:grid-cols-2 sm:grid-cols-1 gap-2 space-y-2 ">
+          <Card className="py-4 ">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <p className="text-tiny uppercase font-bold">Full Stack</p>
               <small className="text-default-500">
@@ -111,11 +111,11 @@ const projects = () => {
             </div>
           </Card>
         </div>
-      </div>
-      <div className="flex justify-center items-center h-full">
-        <Button>
-          <Link href="/">Back</Link>
-        </Button>
+        <div className="flex justify-center items-center mb-10 py-10">
+          <Button>
+            <Link href="/">Back</Link>
+          </Button>
+        </div>
       </div>
     </>
   );

@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Adjust this as needed */
+  height: auto; /* Adjust this as needed */
 }
 
 .text-container {
