@@ -2,7 +2,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="page-container dark:text-white">
+    <div className="page-container dark:text-white light:text-black">
       <div className="text-container">
         <p>
           I am a LA based software developer with experience in HTML, CSS,
