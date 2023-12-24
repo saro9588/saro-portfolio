@@ -8,7 +8,7 @@ import "@radix-ui/themes/styles.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: `Saro Babikian`,
+  title: `Saro Babikian - Software Developer`,
   description: "Software Developer",
 };
 
