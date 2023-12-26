@@ -135,6 +135,31 @@ const projects = () => {
               </Button>
             </div>
           </Card>
+          <Card className="py-4">
+            <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <p className="text-tiny uppercase font-bold">
+                FULL STACK - CONTRIBUTOR
+              </p>
+              <small className="text-default-500">
+                <Link href="https://www.legibill.org/">Visit Site</Link>
+              </small>
+              <h4 className="font-bold text-large">Legibill</h4>
+            </CardHeader>
+            <CardBody className="overflow-visible py-2">
+              <Image
+                alt="Card background"
+                className="object-cover rounded-xl"
+                src="/legibill.png"
+                height={10}
+                width={270}
+              />
+            </CardBody>
+            <div className="flex justify-center items-center h-full p-2">
+              <Button>
+                <Link href="/projects/legibill">Learn More</Link>
+              </Button>
+            </div>
+          </Card>
         </div>
         <div className="flex justify-center items-center mb-10 py-10">
           <Button>
