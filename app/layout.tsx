@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="text text-default-800">
-      <body className={`${inter.className} text-default-800`}>
+      <body className={`${inter.className} text-default-50 dark:text-white`}>
         <Providers>
           <NavBar />
           {children}
