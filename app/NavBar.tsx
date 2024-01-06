@@ -11,7 +11,6 @@ export const NavBar = () => {
     <div className="navbar">
       <nav className="border-b mb-5 px-5 py-3">
         <div className="flex h-7 justify-start items-center  space-x-5">
-          <Divider orientation="vertical" />
           <Link
             className={`link ${
               pathname === "/" ? "text-zinc-600 dark:text-red-200" : ""
@@ -20,7 +19,6 @@ export const NavBar = () => {
           >
             Home
           </Link>
-          <Divider orientation="vertical" />
           <Link
             className={`link ${
               pathname === "/projects" ? "text-zinc-600 dark:text-red-200" : " "
@@ -29,7 +27,6 @@ export const NavBar = () => {
           >
             Projects
           </Link>
-          <Divider orientation="vertical" />
           <Link
             className={`link ${
               pathname === "/about" ? "text-zinc-600 dark:text-red-200" : " "
@@ -38,7 +35,6 @@ export const NavBar = () => {
           >
             About
           </Link>
-          <Divider orientation="vertical" />
         </div>
       </nav>
     </div>

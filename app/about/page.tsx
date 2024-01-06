@@ -16,6 +16,8 @@ const Page = () => {
           Hall in NY in 2019. In addition, I am the founder and the manager of
           Saro&apos;s Guitar Studio.
         </p>
+        <p></p>
+        <p></p>
       </div>
     </div>
   );

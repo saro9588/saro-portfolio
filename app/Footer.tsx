@@ -1,4 +1,3 @@
-import { Divider } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -13,7 +12,6 @@ const Footer = () => {
       <div className="flex justify-between items-start">
         <div className="flex flex-col items-start">
           <div className="flex h-7 justify-start items-center space-x-5">
-            <Divider orientation="vertical" />
             <div className="flex justify-center items-center">
               <Link href="tel:+18187266444">
                 <BsFillTelephoneFill />
@@ -22,21 +20,15 @@ const Footer = () => {
                 {/* <p className="sm:hidden">+1818-726-6444</p> */}
               </Link>
             </div>
-            <Divider orientation="vertical" />
+            <Link href="mailto:babikiansaro@gmail.com">
+              <MdEmail />
+            </Link>
             <Link href="https://github.com/saro9588">
               <FaGithub />
             </Link>
-            <Divider orientation="vertical" />
             <Link href="https://www.linkedin.com/in/saro-babikian-16322aa7">
               <FaLinkedin />
             </Link>
-            <Divider orientation="vertical" />
-            <div className="flex justify-left items-center space-x-5">
-              <Link href="mailto:babikiansaro@gmail.com">
-                <MdEmail />
-              </Link>
-            </div>
-            <Divider orientation="vertical" />
           </div>
           <div className="flex items-center space-x-1 mt-2">
             <FaRegCopyright />

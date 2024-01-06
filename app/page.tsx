@@ -59,7 +59,7 @@ export default function Home() {
                   <div className="flex flex-col">
                     <p className="text-tiny text-white/60">Coding stuff</p>
                     <p className="text-tiny text-white/60">
-                      Check out my latest projects.
+                      Check out my latest projects!
                     </p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
             </Card>
           </div>
         </div>
-        <div>
+        <div className="mt-2">
           <Card
             isFooterBlurred
             className="w-full h-[400px] col-span-12 sm:col-span-7"
