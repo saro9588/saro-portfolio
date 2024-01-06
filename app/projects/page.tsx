@@ -10,13 +10,13 @@ const projects = () => {
         <div className="md:grid md:grid-cols-3 sm:grid-cols-1 gap-2 space-y-2 ">
           <Card className="py-4 ">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">Members App</h4>
               <p className="text-tiny uppercase font-bold">Full Stack</p>
               <small className="text-default-500">
                 <Link href="https://members-app-gilt.vercel.app/">
                   Visit Site
                 </Link>
               </small>
-              <h4 className="font-bold text-large">Members App</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -35,13 +35,13 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">Bank App</h4>
               <p className="text-tiny uppercase font-bold">Full Stack</p>
               <small className="text-default-500">
                 <Link href="https://saro-babikianfullstackbankingapp.netlify.app/#">
                   Visit Site
                 </Link>
               </small>
-              <h4 className="font-bold text-large">Bank App</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -60,13 +60,13 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">Portfolio Website</h4>
               <p className="text-tiny uppercase font-bold">Full Stack</p>
               <small className="text-default-500">
                 <Link href="https://github.com/saro9588/saro-portfolio">
                   Visit Site
                 </Link>
               </small>
-              <h4 className="font-bold text-large">Portfolio</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -85,6 +85,7 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">Ts-Express-React App</h4>
               <p className="text-tiny uppercase font-bold">
                 Full Stack - Contributor
               </p>
@@ -93,7 +94,6 @@ const projects = () => {
                   Visit Site
                 </Link>
               </small>
-              <h4 className="font-bold text-large">ts-express-react</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -112,13 +112,13 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">JS-Practice-Problems</h4>
               <p className="text-tiny uppercase font-bold">JavaScript </p>
               <small className="text-default-500">
                 <Link href="https://github.com/saro9588/daily-js-practice">
                   Visit Site
                 </Link>
               </small>
-              <h4 className="font-bold text-large">JS-Practice-Problems</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -137,13 +137,13 @@ const projects = () => {
           </Card>
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+              <h4 className="font-bold text-large">Legibill</h4>
               <p className="text-tiny uppercase font-bold">
                 FULL STACK - CONTRIBUTOR
               </p>
               <small className="text-default-500">
                 <Link href="https://www.legibill.org/">Visit Site</Link>
               </small>
-              <h4 className="font-bold text-large">Legibill</h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2">
               <Image
@@ -161,7 +161,7 @@ const projects = () => {
             </div>
           </Card>
         </div>
-        <div className="flex justify-center items-center mb-20 py-10">
+        <div className="flex justify-start items-center py-5">
           <Button>
             <Link href="/">Back</Link>
           </Button>
