@@ -12,13 +12,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="space-y-4 h-auto text-default-800 dark:text-white light:text-black pb-32">
+    <div className="space-y-4 h-auto text-default-800 dark:text-white light:text-black pb-2">
       <div className="justify-center items-center text-center">
         <h1>Saro&apos;s Portfolio</h1>
       </div>
       <Divider className="my-5" />
       <div className="md:grid md:grid-cols-2 sm:grid-cols-1 mx-2">
-        <div className="my-2 ml-2 max-w-full">
+        <div className="my-2 ml-4 max-w-full">
           <p>
             I am a LA based software developer with experience in HTML, CSS,
             JavaScript, and the MERN stack. I am a recent graduate of the MIT
