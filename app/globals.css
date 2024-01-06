@@ -35,9 +35,11 @@ body {
   bottom: 0;
   width: 100%;
   background-color: rgba(151, 140, 124, 0.753);
+  color: rgb(252, 252, 252);
 }
 
 .navbar {
+  color: rgb(252, 252, 252);
   background-color: rgba(151, 140, 124, 0.753);
 }
 
