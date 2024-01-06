@@ -31,7 +31,7 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
   background-color: rgba(151, 140, 124, 0.753);

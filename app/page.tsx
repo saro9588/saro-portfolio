@@ -49,7 +49,7 @@ export default function Home() {
                   src="/dev.png"
                 />
               </CardBody>
-              <CardFooter className=" bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
+              <CardFooter className=" bg-black/40 bottom-0 z-5 border-t-1 border-default-600 dark:border-default-100">
                 <div className="flex flex-grow gap-2 items-center">
                   <Image
                     alt="Breathing app icon"
