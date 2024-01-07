@@ -7,7 +7,7 @@ const projects = () => {
   return (
     <>
       <div className="grid justify-center items-center h-150vh">
-        <div className="md:grid md:grid-cols-3 sm:grid-cols-1 gap-2 space-y-2 ">
+        <div className="md:grid md:grid-cols-3 sm:grid-cols-1 gap-2 space-y-3 ">
           <Card className="py-4 ">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-large">Members App</h4>
@@ -24,7 +24,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/membersApp.png"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
@@ -49,7 +49,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/bankApp.png"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
@@ -74,7 +74,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/portfolio.png"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
@@ -101,7 +101,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/ts-express-react.png"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
@@ -126,7 +126,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/javascript.webp"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
@@ -151,7 +151,7 @@ const projects = () => {
                 className="object-cover rounded-xl"
                 src="/legibill.png"
                 height={10}
-                width={270}
+                width={330}
               />
             </CardBody>
             <div className="flex justify-center items-center h-full p-2">
