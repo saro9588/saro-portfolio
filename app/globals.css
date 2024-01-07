@@ -44,11 +44,12 @@ body {
 }
 
 .page-container {
-  min-height: 100vh;
+  min-height: 83vh;
 }
 
 .text-container {
   text-align: start;
   max-width: 900px; /* Adjust this to control the width of the text */
-  padding: 20px;
+  padding-left: 22px;
+  padding-bottom: 10px;
 }
