@@ -46,7 +46,7 @@ body {
 .page-container {
   display: flex;
   justify-content: center;
-  min-height: 83vh;
+  min-height: 88vh;
 }
 
 .text-container {
