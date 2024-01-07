@@ -59,6 +59,7 @@ const Page = () => {
           </p>
           <Divider />
         </div>
+        <div></div>
         <Card>
           <Image alt="" width={800} height={800} src="/AGBU2.JPG"></Image>
           <CardFooter>Los Angeles. 2022</CardFooter>
