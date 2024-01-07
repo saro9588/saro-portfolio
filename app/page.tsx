@@ -46,6 +46,7 @@ export default function Home() {
                   // removeWrapper
                   // alt="Relaxing app background"
                   // className="z-0 w-full h-full"
+                  alt=""
                   src="/dev.png"
                 />
               </CardBody>
@@ -83,6 +84,7 @@ export default function Home() {
                 // removeWrapper
                 // alt="Relaxing app background"
                 // className="z-0 w-full h-full"
+                alt=""
                 src="/guitar.JPG"
               />
             </CardBody>

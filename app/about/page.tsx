@@ -17,8 +17,8 @@ const Page = () => {
             took and successfully completed a few online courses on LinkedIn and
             codecademy.com. After doing some research, I decided to enroll in
             MITs xPro full stack coding bootcamp. I was excited to take
-            advantage of the learning opportunity from one of the world's top
-            leading technology institutions and its world class faculty.
+            advantage of the learning opportunity from one of the world&apos;s
+            top leading technology institutions and its world class faculty.
             Throughout the bootcamp I had weekly assignments and coding
             challenges to solve and submit. Since my graduation from the
             bootcamp, I have been working on a variety of personal projects and
