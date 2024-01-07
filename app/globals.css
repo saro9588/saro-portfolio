@@ -51,5 +51,6 @@ body {
   text-align: start;
   max-width: 900px; /* Adjust this to control the width of the text */
   padding-left: 22px;
+  padding-right: 22px;
   padding-bottom: 10px;
 }
