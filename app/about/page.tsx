@@ -10,21 +10,21 @@ const Page = () => {
           <p>
             I am a Los Angeles based software and web developer with experience
             in HTML, CSS, JavaScript, and the MERN stack. My interest in tech
-            and specifically programming in 2021 as the world was locked down
-            due to Covid-19. I started my journey by watching a few YouTube
+            and specifically programming started in 2021 as the world was locked
+            down due to Covid-19. I started my journey by watching a few YouTube
             videos and cloning basic webpages such as YouTube home page and
             Tesla and others. Furthermore, my interest grew in the field, so I
             took and successfully completed a few online courses on LinkedIn and
             codecademy.com. After doing some research, I decided to enroll in
-            MITs xPro full stack coding bootcamp. I was excited to take
-            advantage of the learning opportunity from one of the world&apos;s
-            top leading technology institutions and its world class faculty.
-            Throughout the bootcamp I had weekly assignments and coding
-            challenges to solve and submit. Since my graduation from the
-            bootcamp, I have been working on a variety of personal projects and
-            I have been actively contributing to friends&apos;s projects.
-            Currently, I am highly motivated and excited to land my first time
-            full-time job in the tech world as a software developer.
+            MIT xPro full stack coding bootcamp. I was excited to take advantage
+            of the learning opportunity from one of the world&apos;s top leading
+            technology institutions and its world class faculty. Throughout the
+            bootcamp I had weekly assignments and coding challenges to solve and
+            submit. Since my graduation from the bootcamp, I have been working
+            on a variety of personal projects and I have been actively
+            contributing to friends&apos; projects. Currently, I am highly
+            motivated and excited to land my first time full-time job in the
+            tech world as a software developer.
           </p>
           <Divider />
         </div>
