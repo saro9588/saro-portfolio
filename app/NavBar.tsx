@@ -33,7 +33,7 @@ export const NavBar = () => {
             }`}
             href="/about"
           >
-            About
+            About Me
           </Link>
         </div>
       </nav>
