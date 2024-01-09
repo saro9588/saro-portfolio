@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardHeader, CardBody, Button } from "@nextui-org/react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `Projects - Saro Babikian`,
+  description: "Check out my latest projects.",
+};
 
 const projects = () => {
   return (

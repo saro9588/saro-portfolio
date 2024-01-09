@@ -9,7 +9,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: `Saro Babikian - Software Developer`,
-  description: "Software Developer",
+  description: "LA based software developer.",
 };
 
 export default function RootLayout({

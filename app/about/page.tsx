@@ -1,6 +1,13 @@
 import { Card, CardFooter, Divider } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `About Me - Saro Babikian`,
+  description:
+    "LA based software developer, experienced in HTML, CSS, JavaScript, and the MERN stack.",
+};
 
 const Page = () => {
   return (
