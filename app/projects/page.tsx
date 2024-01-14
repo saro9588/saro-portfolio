@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 const projects = () => {
   return (
     <>
-      <div className="page-container">
-        <div className="grid justify-center items-center h-auto mb-auto">
+      <div className="page-container mx-auto max-w-screen-lg">
+        <div className="grid justify-center items-center h-auto mb-auto ">
           <div className=" md:grid md:grid-cols-3 sm:grid-cols-1 gap-2 space-y-3">
             <Card className="py-4 ">
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">

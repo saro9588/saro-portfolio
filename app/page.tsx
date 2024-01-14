@@ -12,14 +12,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="page-container">
-      <div className="space-y-4 h-auto pl-3.5 pr-3.5 text-default-800 dark:text-white light:text-black pb-2">
+    <div className="page-container mx-auto max-w-screen-lg">
+      <div className="space-y-4 h-auto text-default-800 dark:text-white light:text-black">
         <div className="justify-center items-center text-center">
           <h1>Saro&apos;s Portfolio</h1>
         </div>
         <Divider className="my-5" />
-        <div className="md:grid md:grid-cols-2 sm:grid-cols-1 mx-2">
-          <div className="my-2 max-w-full">
+        <div className="md:grid md:grid-cols-1 sm:grid-cols-1 mx-2">
+          <div className="my-2">
             <p>
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, and the MERN stack. I am a recent graduate of the MIT
@@ -37,16 +37,16 @@ export default function Home() {
             <div>
               <Card
                 isFooterBlurred
-                className="w-full h-[400px] col-span-12 sm:col-span-7"
+                className="w-full h-auto col-span-12 sm:col-span-7"
               >
                 <CardHeader className=" z-10 top-1 flex-col items-start">
-                  <h4 className=" font-medium text-xl">Saro Dev </h4>
+                  <h4 className="font-medium text-xl">Saro Dev</h4>
                 </CardHeader>
                 <CardBody>
                   <Image
                     // removeWrapper
                     // alt="Relaxing app background"
-                    // className="z-0 w-full h-full"
+                    className="z-0 w-full h-full"
                     alt=""
                     src="/dev.png"
                   />
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="mt-2">
             <Card
               isFooterBlurred
-              className="w-full h-[400px] col-span-12 sm:col-span-7"
+              className="w-full h-auto col-span-12 sm:col-span-7"
             >
               <CardHeader className=" z-10 top-1 flex-col items-start">
                 <h4 className=" font-medium text-xl">Saro Music</h4>
@@ -110,7 +110,6 @@ export default function Home() {
             </Card>
           </div>
         </div>
-        {/* <div className="max-w-[800px] h-auto gap-2 grid grid-rows-2 ml-2 mb-2"></div> */}
       </div>
     </div>
   );

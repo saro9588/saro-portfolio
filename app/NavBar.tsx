@@ -9,8 +9,8 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
-      <nav className="border-b mb-5 px-5 py-3">
-        <div className="flex h-7 justify-start items-center  space-x-5">
+      <nav className="border-b mb-5 py-3">
+        <div className="flex h-7 justify-start items-center space-x-5 mx-auto max-w-screen-lg">
           <Link
             className={`link ${
               pathname === "/" ? "text-zinc-600 dark:text-red-200" : ""
