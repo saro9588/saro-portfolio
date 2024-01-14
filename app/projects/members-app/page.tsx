@@ -4,9 +4,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="page-container dark:text-white text-container">
+    <div className="projects-pages-container  dark:text-white text-container">
       <div>Members App</div>
-      <div className="page-container dark:text-white light:text-black">
+      <div className=" dark:text-white light:text-black">
         <div className="text-default-800 text-container ">
           <p>
             This is an Application that I am developing for my business. I run a

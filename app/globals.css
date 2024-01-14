@@ -48,3 +48,20 @@ body {
   justify-content: center;
   min-height: auto;
 }
+
+.text-container {
+  text-align: start;
+  max-width: 900px; /* Adjust this to control the width of the text */
+  padding-bottom: 10px;
+}
+
+.projects-pages-container {
+  display: grid;
+  direction: column;
+  justify-content: start;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 0 auto; /* Apply mx-auto to center horizontally */
+  max-width: 1024px; /* Keep the original max-width */
+  min-height: 100vh;
+}

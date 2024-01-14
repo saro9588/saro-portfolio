@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="page-container dark:text-white text-container">
+    <div className="projects-pages-container dark:text-white text-container">
       <div>
         Here I practice JavasScript problems on a regular basis.
         <div>

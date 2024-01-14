@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="footer border-t py-4">
       <div className="flex justify-between items-start mx-auto max-w-screen-lg">
         <div className="flex flex-col items-start mx-2">
-          <div className="flex h-7 justify-start items-center space-x-5">
+          <div className="flex h-auto justify-start items-center space-x-5">
             <div className="flex justify-center items-center">
               <Link href="tel:+18187266444">
                 <BsFillTelephoneFill />
