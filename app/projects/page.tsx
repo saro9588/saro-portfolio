@@ -56,9 +56,9 @@ const projects = () => {
   ];
   return (
     <>
-      <div className="page-container mx-auto max-w-screen-lg gap-4 ">
+      <div className="page-container mx-auto max-w-screen-lg">
         <div className="grid justify-center items-center h-auto mb-auto min-h-screen ">
-          <div className="md:grid md:grid-cols-3 sm:grid-cols-1 gap-4 ">
+          <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-2">
             {projectData.map((project) => (
               <Card key={project.title} className="py-1 pb-0">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
