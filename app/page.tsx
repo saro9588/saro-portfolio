@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <Divider className="my-5" />
         <div className="md:grid md:grid-cols-1 sm:grid-cols-1 mx-2">
-          <div className="">
+          <div className="grid gap-2 mb-2">
             <p>
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, and the MERN stack. I am a recent graduate of the MIT
@@ -34,15 +34,15 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div>
+            <div className="">
               <Card
                 isFooterBlurred
-                className="w-full h-auto col-span-12 sm:col-span-7"
+                className="w-auto h-auto col-span-12 sm:col-span-7"
               >
                 <CardHeader className=" z-10 top-1 flex-col items-start">
                   <h4 className="font-medium text-xl">Saro Dev</h4>
                 </CardHeader>
-                <CardBody>
+                <CardBody className="">
                   <Image
                     // removeWrapper
                     // alt="Relaxing app background"
@@ -72,10 +72,10 @@ export default function Home() {
               </Card>
             </div>
           </div>
-          <div className="mt-2">
+          <div className=" mt-2">
             <Card
               isFooterBlurred
-              className="w-full h-auto col-span-12 sm:col-span-7"
+              className="w-auto h-auto col-span-12 sm:col-span-7"
             >
               <CardHeader className=" z-10 top-1 flex-col items-start">
                 <h4 className=" font-medium text-xl">Saro Music</h4>
