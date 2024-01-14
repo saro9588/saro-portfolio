@@ -48,9 +48,3 @@ body {
   justify-content: center;
   min-height: auto;
 }
-
-.text-container {
-  text-align: start;
-  max-width: 900px; /* Adjust this to control the width of the text */
-  padding-bottom: 10px;
-}

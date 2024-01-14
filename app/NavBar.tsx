@@ -9,7 +9,7 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
-      <nav className="border-b mb-5 py-3">
+      <nav className="border-b mb-5 py-3 mx-2">
         <div className="flex h-7 justify-start items-center space-x-5 mx-auto max-w-screen-lg">
           <Link
             className={`link ${

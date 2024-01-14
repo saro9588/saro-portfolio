@@ -8,9 +8,9 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const Footer = () => {
   return (
-    <footer className="footer border-t px-5 py-4">
-      <div className="flex justify-between items-start">
-        <div className="flex flex-col items-start">
+    <footer className="footer border-t py-4">
+      <div className="flex justify-between items-start mx-auto max-w-screen-lg">
+        <div className="flex flex-col items-start mx-2">
           <div className="flex h-7 justify-start items-center space-x-5">
             <div className="flex justify-center items-center">
               <Link href="tel:+18187266444">
@@ -35,7 +35,7 @@ const Footer = () => {
             <p>Saro Babikian 2024</p>
           </div>
         </div>
-        <div className="">
+        <div className="mx-2">
           <ThemeSwitcher />
         </div>
       </div>
