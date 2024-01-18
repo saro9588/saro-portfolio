@@ -46,7 +46,7 @@ body {
 .page-container {
   display: flex;
   justify-content: center;
-  min-height: auto;
+  min-height: 84vh;
 }
 
 .text-container {
@@ -59,9 +59,10 @@ body {
   display: grid;
   direction: column;
   justify-content: start;
+  align-items: baseline;
   padding-left: 4px;
   padding-right: 4px;
   margin: 0 auto; /* Apply mx-auto to center horizontally */
   max-width: 1024px; /* Keep the original max-width */
-  min-height: 100vh;
+  min-height: 84vh;
 }

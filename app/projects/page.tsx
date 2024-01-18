@@ -57,8 +57,8 @@ const projects = () => {
   return (
     <>
       <div className="page-container mx-auto max-w-screen-lg">
-        <div className="grid justify-center items-center h-auto mb-auto min-h-screen ">
-          <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-2">
+        <div className="grid justify-center items-start">
+          <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-2 pb-2">
             {projectData.map((project) => (
               <Card key={project.title} className="py-1 pb-0">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -66,36 +66,41 @@ const projects = () => {
                   <p className="text-tiny uppercase font-bold">
                     {project.stack}
                   </p>
-                  {project.siteLink && (
-                    <small className="text-default-500">
-                      <Link href={project.siteLink}>Visit Site</Link>
-                    </small>
-                  )}
+                  <div>
+                    {project.siteLink && (
+                      <small className="text-default-500">
+                        <a href={project.siteLink}>Visit Site</a>
+                      </small>
+                    )}
+                  </div>
                 </CardHeader>
-                <CardBody className="overflow-clip h-72 py-2">
-                  <Image
-                    alt="Card background"
-                    className="object-fill rounded-xl"
-                    src={project.image}
-                    height={10}
-                    width={330}
-                  />
-                </CardBody>
-                <div className="flex justify-start items-center h-auto p-3">
-                  {project.learnMoreLink && (
-                    <Button>
-                      <Link href={project.learnMoreLink}>Learn More</Link>
-                    </Button>
-                  )}
-                </div>
+                <Link href={project.learnMoreLink}>
+                  <CardBody className="overflow-clip h-80 py-2">
+                    <Image
+                      alt="Card background"
+                      className="object-fill rounded-xl"
+                      src={project.image}
+                      height={10}
+                      width={330}
+                    />
+                  </CardBody>
+                </Link>
+
+                {/* <div className="flex justify-start items-center h-auto p-3">
+                    {project.learnMoreLink && (
+                      <Button>
+                        <Link href={project.learnMoreLink}>Learn More</Link>
+                      </Button>
+                    )}
+                  </div> */}
               </Card>
             ))}
           </div>
-          <div className="flex justify-start items-center py-2">
+          {/* <div className="flex justify-start items-center py-2">
             <Button>
               <Link href="/">Back</Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
