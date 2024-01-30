@@ -1,4 +1,5 @@
-This is going to become my portfolio website. 
+## Overview
+Welcome to my portfolio website. I built my site with NextJS and TypeScript. 
 
 ## Getting Started
 
