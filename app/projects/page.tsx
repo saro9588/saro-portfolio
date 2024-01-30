@@ -19,8 +19,22 @@ const projects = () => {
       image: "/members.png",
     },
     {
-      title: "Bank App",
-      stack: "Full Stack",
+      title: "Bank App v2",
+      stack: "FULL STACK",
+      siteLink: "https://github.com/saro9588/mit-bank-app-v2",
+      learnMoreLink: "/projects/bank-app2",
+      image: "/BankApp2.png",
+    },
+    {
+      title: "Legibill",
+      stack: "FULL STACK - CONTRIBUTOR",
+      siteLink: "https://www.legibill.org/",
+      learnMoreLink: "/projects/legibill",
+      image: "/legibill.png",
+    },
+    {
+      title: "Bank App v1",
+      stack: "Full Stack - MIT xPro Capstone Project",
       siteLink: "https://saro-babikianfullstackbankingapp.netlify.app/#",
       learnMoreLink: "/projects/bank-app",
       image: "/bank.png",
@@ -45,20 +59,6 @@ const projects = () => {
       siteLink: "https://github.com/saro9588/daily-js-practice",
       learnMoreLink: "/projects/js-practice-problems",
       image: "/javascript.webp",
-    },
-    {
-      title: "Legibill",
-      stack: "FULL STACK - CONTRIBUTOR",
-      siteLink: "https://www.legibill.org/",
-      learnMoreLink: "/projects/legibill",
-      image: "/legibill.png",
-    },
-    {
-      title: "Bank App v2",
-      stack: "FULL STACK",
-      siteLink: "https://github.com/saro9588/mit-bank-app-v2",
-      learnMoreLink: "/projects/bank-app2",
-      image: "/BankApp2.png",
     },
   ];
   return (
