@@ -53,6 +53,13 @@ const projects = () => {
       learnMoreLink: "/projects/legibill",
       image: "/legibill.png",
     },
+    {
+      title: "Bank App v2",
+      stack: "FULL STACK",
+      siteLink: "https://github.com/saro9588/mit-bank-app-v2",
+      learnMoreLink: "/projects/bank-app2",
+      image: "/BankApp2.png",
+    },
   ];
   return (
     <>
