@@ -37,12 +37,20 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <Button>
-            <Link href="https://github.com/saro9588/mit-bank-app-v2">
-              Visit Github repo
-            </Link>
-          </Button>
+        <div className="grid gap-2">
+          <div>
+            <Button>
+              <Link href="https://github.com/saro9588/mit-bank-app-v2">
+                GitHub
+              </Link>
+            </Button>
+          </div>
+          <p>-- or --</p>
+          <div>
+            <Button>
+              <Link href="https://bank-app-v2-rho.vercel.app/"> Site</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

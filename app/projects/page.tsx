@@ -21,7 +21,7 @@ const projects = () => {
     {
       title: "Bank App v2",
       stack: "FULL STACK",
-      siteLink: "https://github.com/saro9588/mit-bank-app-v2",
+      siteLink: "https://bank-app-v2-rho.vercel.app/",
       learnMoreLink: "/projects/bank-app2",
       image: "/BankApp2.png",
     },
