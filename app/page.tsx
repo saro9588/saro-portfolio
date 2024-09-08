@@ -1,25 +1,13 @@
-import { Divider } from "@nextui-org/react";
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Button,
-} from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="page-container mx-auto max-w-screen-lg pb-2">
-      <div className="space-y-4 h-auto text-default-800 dark:text-white light:text-black">
-        <div className="justify-center items-center text-center">
-          <h1>Saro&apos;s Portfolio</h1>
-        </div>
-        <Divider className="my-5" />
-        <div className="md:grid md:grid-cols-1 sm:grid-cols-1 mx-2">
-          <div className="grid gap-2 mb-2">
+    <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
+      <div className="bg-blue-300 pt-5">
+        <div className="parent">
+          <div className="flex items-center justify-center w-fit">
             <p>
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, and the MERN stack. I am a recent graduate of the MIT
@@ -27,90 +15,55 @@ export default function Home() {
               and websites using the MERN stack. In addition, I create and host
               WordPress websites.
             </p>
-            <p>
-              As a musician, I had the honor to perform at the prestigious
-              Carnegie Hall in NY in 2019. In addition, I am the founder and the
-              manager of Saro&apos;s Guitar Studio.
-            </p>
           </div>
-          <div>
-            <div className="">
-              <Card
-                isFooterBlurred
-                className="w-auto h-auto col-span-12 sm:col-span-7"
-              >
-                <CardHeader className=" z-10 top-1 flex-col items-start">
-                  <h4 className="font-medium text-xl">Saro Dev</h4>
-                </CardHeader>
-                <CardBody className="">
-                  <Image
-                    // removeWrapper
-                    // alt="Relaxing app background"
-                    className="z-0 w-full h-full"
-                    alt=""
-                    src="/dev.png"
-                  />
-                </CardBody>
-                <CardFooter className=" bg-black/40 bottom-0 z-5 border-t-1 border-default-600 dark:border-default-100">
-                  <div className="flex flex-grow gap-2 items-center">
-                    <Image
-                      alt="Breathing app icon"
-                      className="rounded-full w-10 h-11 bg-black"
-                      src="/dev.png"
-                    />
-                    <div className="flex flex-col">
-                      <p className="text-tiny text-white/60">Coding stuff</p>
-                      <p className="text-tiny text-white/60">
-                        Check out my latest projects!
-                      </p>
-                    </div>
-                  </div>
-                  <Button radius="full" size="sm">
-                    <Link href="/projects">Visit</Link>
-                  </Button>
-                </CardFooter>
-              </Card>
+          <div className="mt-7">
+            <Link href="/projects">
+              <Image
+                alt="Breathing app icon"
+                className="w-full h-full hover:scale-105 transition-transform duration-300"
+                src="/dev.png"
+              />
+            </Link>
+          </div>
+        </div>
+        <div className="custom-shape-divider-bottom-1725737973">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div className="parent custom-blue">
+          <div className="child">
+            <Image alt="" src="/guitar.JPG" />
+          </div>
+          <div className="child flex items-center">
+            <div>
+              <p>
+                As a musician, I had the honor to perform at the prestigious
+                Carnegie Hall in NY in 2019. In addition, I am the founder and
+                the manager of Saro&apos;s Guitar Studio.
+              </p>
             </div>
-          </div>
-          <div className=" mt-2">
-            <Card
-              isFooterBlurred
-              className="w-auto h-auto col-span-12 sm:col-span-7"
-            >
-              <CardHeader className=" z-10 top-1 flex-col items-start">
-                <h4 className=" font-medium text-xl">Saro Music</h4>
-              </CardHeader>
-              <CardBody>
+            <div className="">
+              <Link href="https://saroguitar.com/">
                 <Image
-                  // removeWrapper
-                  // alt="Relaxing app background"
-                  // className="z-0 w-full h-full"
-                  alt=""
-                  src="/guitar.JPG"
+                  src="/guitar.png"
+                  alt="Guitar Image"
+                  className="w-full h-full hover:scale-105 transition-transform duration-300"
                 />
-              </CardBody>
-              <CardFooter className=" bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-                <div className="flex flex-grow gap-2 items-center">
-                  <Image
-                    alt="Breathing app icon"
-                    className="rounded-full w-10 h-11 bg-black"
-                    src="/guitar.JPG"
-                  />
-                  <div className="flex flex-col">
-                    <p className="text-tiny text-white/60">Music stuff</p>
-                    <p className="text-tiny text-white/60">
-                      Check out my music!{" "}
-                    </p>
-                  </div>
-                </div>
-                <Button radius="full" size="sm">
-                  <Link href="https://saroguitar.com/">Visit</Link>
-                </Button>
-              </CardFooter>
-            </Card>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
   );
 }

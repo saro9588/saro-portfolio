@@ -1,7 +1,13 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* CSS variables for light and dark modes */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,10 +22,13 @@
   }
 }
 
+/* Apply the new font globally */
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Additional styling */
 .text {
   color: black;
 }
@@ -30,39 +39,91 @@ body {
   }
 }
 
+.font-cartoon {
+  letter-spacing: 0.05em;
+  font-family: 'Fredoka One';
+  font-size: xx-large;
+}
+
 .footer {
   position: relative;
-  bottom: auto;
   width: 100%;
-  background-color: rgba(151, 140, 124, 0.753);
+  background-color: rgba(71, 101, 107, 0.753);
   color: rgb(252, 252, 252);
 }
 
 .navbar {
   color: rgb(252, 252, 252);
-  background-color: rgba(151, 140, 124, 0.753);
+  background-color: #93C5FD;
 }
 
 .page-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   min-height: 84vh;
 }
 
 .text-container {
   text-align: start;
-  max-width: 900px; /* Adjust this to control the width of the text */
-  padding-bottom: 10px;
+  padding: 0 10px;
 }
 
 .projects-pages-container {
   display: grid;
-  direction: column;
-  justify-content: start;
-  align-items: baseline;
-  padding-left: 4px;
-  padding-right: 4px;
-  margin: 0 auto; /* Apply mx-auto to center horizontally */
-  max-width: 1024px; /* Keep the original max-width */
-  min-height: 84vh;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 10px;
+  min-height: 34vh;
+}
+
+.child {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .parent>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.custom-shape-divider-bottom-1725737973 {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1725737973 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 225px;
+}
+
+.custom-shape-divider-bottom-1725737973 .shape-fill {
+  fill: #78a8e0;
+}
+
+.custom-blue {
+  background-color: #78a8e0;
+  padding-bottom: 1.25rem;
 }
