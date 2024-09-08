@@ -9,10 +9,10 @@ export const NavBar = () => {
   return (
     <div className="navbar">
       <nav className="py-3 mx-2">
-        <div className="flex h-7 justify-center items-center space-x-6 mx-auto max-w-screen-lg">
+        <div className="flex h-7 justify-center items-center mx-auto max-w-screen-lg space-x-2">
           <Link
             className={`link ${
-              pathname === "/" ? "text-zinc-600 dark:text-red-200" : ""
+              pathname === "/" ? "text-white dark:text-red-200" : ""
             }`}
             href="/"
           >
@@ -20,7 +20,7 @@ export const NavBar = () => {
           </Link>
           <Link
             className={`link ${
-              pathname === "/projects" ? "text-zinc-600 dark:text-red-200" : ""
+              pathname === "/projects" ? "text-white dark:text-red-200" : ""
             }`}
             href="/projects"
           >
@@ -28,7 +28,7 @@ export const NavBar = () => {
           </Link>
           <Link
             className={`link ${
-              pathname === "/about" ? "text-zinc-600 dark:text-red-200" : ""
+              pathname === "/about" ? "text-white dark:text-red-200" : ""
             }`}
             href="/about"
           >

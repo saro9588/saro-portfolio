@@ -53,7 +53,7 @@ body {
 }
 
 .navbar {
-  color: rgb(252, 252, 252);
+  color: black;
   background-color: #93C5FD;
 }
 
@@ -84,8 +84,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  padding: 0 10px;
-  min-height: 34vh;
+  padding: 0 20px;
 }
 
 .child {
@@ -97,11 +96,15 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-  }
 
-  .parent>div:nth-child(2) {
-    display: flex;
-    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }
 
@@ -126,4 +129,30 @@ body {
 .custom-blue {
   background-color: #78a8e0;
   padding-bottom: 1.25rem;
+}
+
+@keyframes flash {
+  0% {
+    color: #ff0000;
+  }
+
+  25% {
+    color: #00ff00;
+  }
+
+  50% {
+    color: #0000ff;
+  }
+
+  75% {
+    color: #ffff00;
+  }
+
+  100% {
+    color: #ff00ff;
+  }
+}
+
+.animate-flash {
+  animation: flash 1.5s infinite;
 }

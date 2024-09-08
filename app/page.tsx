@@ -7,16 +7,15 @@ export default function Home() {
     <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
       <div className="bg-blue-300 pt-5">
         <div className="parent">
-          <div className="flex items-center justify-center w-fit">
+          <div className="flex justify-center w-fit">
             <p>
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, Java & Spring Boot and the MERN stack. I am a recent graduate of the MIT
-              xPro Full-Stack Software Development bootcamp. I have built apps
-              and websites using the MERN stack. In addition, I create and host
+              xPro Full-Stack Software Development bootcamp. I have built apps, websites & REST APIs using the MERN stack & Spring Boot 3. In addition, I create and host
               WordPress websites.
             </p>
           </div>
-          <div className="mt-7">
+          <div className="gird grid-cols-1 md:grid-cols-1 md:justify-self-center">
             <Link href="/projects">
               <Image
                 alt="Breathing app icon"
@@ -24,7 +23,9 @@ export default function Home() {
                 src="/dev.png"
               />
             </Link>
+            <div className="flex justify-center md:mt-0"><p className="animate-flash">Check me out!</p></div>
           </div>
+      
         </div>
         <div className="custom-shape-divider-bottom-1725737973">
           <svg
@@ -51,7 +52,7 @@ export default function Home() {
                 the manager of Saro&apos;s Guitar Studio.
               </p>
             </div>
-            <div className="">
+            <div className="grid">
               <Link href="https://saroguitar.com/">
                 <Image
                   src="/guitar.png"
@@ -59,6 +60,7 @@ export default function Home() {
                   className="w-full h-full hover:scale-105 transition-transform duration-300"
                 />
               </Link>
+              <div className="pl-7"><p className="animate-flash">Click me!</p></div>
             </div>
           </div>
         </div>

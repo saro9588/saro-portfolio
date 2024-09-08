@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
       <div className="bg-blue-300 pt-5">
-        <div className="px-4 md:px-4">
+        <div className="px-5 md:px-5">
           <div className="pb-2">
             <div className="md:grid md:grid-cols-2 sm:grid-cols-1 gap-5">
               <div>

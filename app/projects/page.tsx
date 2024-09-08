@@ -66,8 +66,8 @@ const projects = () => {
 
   return (
     <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
-      <div className="bg-blue-300 pt-5">
-        <div className="p-4">
+      <div className="bg-blue-300">
+        <div className="p-5">
           <div className="flex items-center justify-center w-fit">
             <p className="text-start">
               Check out some of my latest projects below. Each project showcases
