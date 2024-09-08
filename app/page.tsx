@@ -7,8 +7,8 @@ export default function Home() {
     <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
       <div className="bg-blue-300 pt-5">
         <div className="parent">
-          <div className="flex justify-center w-fit">
-            <p>
+          <div className="flex justify-center">
+            <p className="">
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, Java & Spring Boot and the MERN stack. I am a recent graduate of the MIT
               xPro Full-Stack Software Development bootcamp. I have built apps, websites & REST APIs using the MERN stack & Spring Boot 3. In addition, I create and host
