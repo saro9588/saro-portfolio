@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex items-center justify-center w-fit">
             <p>
               I am a LA based software developer with experience in HTML, CSS,
-              JavaScript, and the MERN stack. I am a recent graduate of the MIT
+              JavaScript, Java & Spring Boot and the MERN stack. I am a recent graduate of the MIT
               xPro Full-Stack Software Development bootcamp. I have built apps
               and websites using the MERN stack. In addition, I create and host
               WordPress websites.

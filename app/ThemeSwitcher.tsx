@@ -1,4 +1,3 @@
-// app/components/ThemeSwitcher.tsx
 "use client";
 
 import { Button } from "@nextui-org/react";

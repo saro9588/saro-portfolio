@@ -9,15 +9,14 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 const Footer = () => {
   return (
     <footer className="footer border-t py-10">
-      <div className="flex justify-between items-start mx-auto max-w-screen-lg">
+      <div className="flex justify-between items-center mx-auto max-w-screen-lg">
         <div className="flex flex-col items-start mx-3 gap-4">
-          <div className="flex h-auto justify-start items-center space-x-5">
+          <div className="flex justify-center items-center space-x-5">
             <div className="flex justify-center items-center">
               <Link href="tel:+18187266444">
                 <BsFillTelephoneFill />
               </Link>
               <Link href="tel:+18187266444">
-                {/* <p className="sm:hidden">+1818-726-6444</p> */}
               </Link>
             </div>
             <Link href="mailto:babikiansaro@gmail.com">
@@ -30,14 +29,15 @@ const Footer = () => {
               <FaLinkedin />
             </Link>
           </div>
-          <div className="flex items-center space-x-1 mt-2">
+  
+        </div>
+                <div className="flex items-center space-x-1">
             <FaRegCopyright />
             <p>Saro Babikian 2024</p>
           </div>
-        </div>
-        <div className="mx-2">
-          <ThemeSwitcher />
-        </div>
+        {/* <div className="mx-2">
+   <ThemeSwitcher />
+        </div> */}
       </div>
     </footer>
   );
