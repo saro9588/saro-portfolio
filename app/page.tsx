@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="text-default-800 dark:text-white light:text-black bg-blue-300">
-      <div className="bg-blue-300 pt-5">
+    <div className="text-default-800 dark:text-white light:text-black bg-blue-50">
+      <div className="bg-blue-50 py-10 pb-0 max-w-7xl mx-auto">
         <div className="parent">
           <div className="flex justify-center">
             <p className="">
@@ -25,21 +25,22 @@ export default function Home() {
             </Link>
             <div className="flex justify-center md:mt-0"><p className="animate-flash">Check out my code!</p></div>
           </div>
-      
         </div>
-        <div className="custom-shape-divider-bottom-1725737973">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
-              className="shape-fill"
-            ></path>
-          </svg>
-        </div>
+<div className="custom-shape-divider-bottom-1725737973">
+  <svg
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
+      className="shape-fill"
+    >
+    </path>
+  </svg>
+</div>
+
         <div className="parent custom-blue">
           <div className="child">
             <Image alt="" src="/guitar.JPG" />

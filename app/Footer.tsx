@@ -9,9 +9,9 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 const Footer = () => {
   return (
     <footer className="footer border-t py-10">
-      <div className="flex justify-between items-center pr-5 pl-5">
+      <div className="flex justify-between items-center max-w-7xl mx-auto md:px-5">
         <div className="flex flex-col items-start gap-4">
-          <div className="flex justify-center items-center space-x-5">
+          <div className="flex justify-center items-center space-x-5 ">
             <div className="flex justify-center items-center">
               <Link href="tel:+18187266444">
                 <BsFillTelephoneFill />
@@ -29,7 +29,6 @@ const Footer = () => {
               <FaLinkedin />
             </Link>
           </div>
-  
         </div>
                 <div className="flex items-center space-x-1">
             <FaRegCopyright />
