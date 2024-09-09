@@ -15,52 +15,86 @@ const projects = () => {
       title: "Members App",
       stack: "Full Stack",
       siteLink: "https://members-app-gilt.vercel.app/",
-      learnMoreLink: "/projects/members-app",
       image: "/members.png",
       description: "This is an Application that I am developing for my business. I run a private music studio and this app will help me create student portfolios, update and delete them. This app can serve other types of users as well. You can create a user, store specific info about each user, update the info of each user."
+    },
+    {
+      title: "Runners Rest API",
+      stack: "Java - Spring Boot 3 Rest API",
+      siteLink: "https://github.com/saro9588/runnerz",
+      image: "/runnerz.png",
+      description: "I am creating this REST API to explore some of the posibilities Spring Boot offers. This is a CRUD REST API for recording runs. I am using Java and Spring Boot framework to create this back-end application. I set up a PostgreSql db on docker."
+    },
+        {
+      title: "Demo App (Rest API) for Employee Management System",
+      stack: "Java - Spring Boot 3 & MySql",
+      siteLink: "https://github.com/saro9588/Spring-Boot-Employee-Management-System",
+      image: "/ems.png",
+      description: "This is a full stack application to manage employees. You can Add, delete and edit employees. I am developing the backend of this application using Spring Boot 3 framework and a locally hosted MySql database to store data in tables created using Spring Data JPA. I will use React to create the frontend and axios to make http requests."
+    },
+    {
+      title: "Demo App (Front-End) for Employee Management System",
+      stack: "React & Vite",
+      siteLink: "https://github.com/saro9588/ems-frontend",
+      image: "/ems-frontend.png",
+      description: "This is the front-end of the Employee Managment System Spring boot demo app, it is built with react."
     },
     {
       title: "Bank App v2",
       stack: "FULL STACK",
       siteLink: "https://bank-app-v2-rho.vercel.app/",
-      learnMoreLink: "/projects/bank-app2",
-      image: "/BankApp2.png",
+      image: "/bank.png",
       description:"In this project I am rebuilding my capstone project from the MIT xPro bootcamp. For this version 2 of the Bank App, I am using a supabase/postgres database and authentication and authorization utilizing the RLS. I implemented actual user authentication upon logging in. Each logged-in user is only allowed to see his/her row from the database. Each user is only allowed to update their own data. Future Improvements: Create a new table in the database that has a relationship one-to-many with each user that stores a history of all the transactions. Create a new component that shows the history of all the deposits and withdrawals by a user."
     },
-    {
-      title: "Legibill",
-      stack: "FULL STACK - CONTRIBUTOR",
-      siteLink: "https://www.legibill.org/",
-      learnMoreLink: "/projects/legibill",
-      image: "/legibill.png",
+        {
+      title: "JS-Practice-Problems",
+      stack: "JavaScript",
+      siteLink: "https://github.com/saro9588/daily-js-practice",
+      image: "/JS.avif",
+      description: "JS lists problems solving."
     },
-    {
-      title: "Bank App v1",
-      stack: "Full Stack - MIT xPro Capstone Project",
-      siteLink: "https://saro-babikianfullstackbankingapp.netlify.app/#",
-      learnMoreLink: "/projects/bank-app",
-      image: "/bank.png",
+{
+  title: "Legibill",
+  stack: "FULL STACK - CONTRIBUTOR",
+  siteLink: "https://www.legibill.org/",
+  image: "/legibill.png",
+  description: (
+    <>
+      LegiBill helps curious users navigate{" "}
+      <Link
+        className="text-blue-600"
+        href="https://legiscan.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LegiScan
+      </Link>{" "}
+      data. This is a project by{" "}
+      <Link
+        className="text-blue-600"
+        href="https://www.sevanbadal.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sevan Badal.
+      </Link>{" "}
+      I am a contributor.
+    </>
+  ),
     },
     {
       title: "Portfolio Website",
       stack: "Full Stack",
       siteLink: "https://github.com/saro9588/saro-portfolio",
-      learnMoreLink: "/projects/portfolio",
-      image: "/portfolio.png",
+      image: "/Portfolio.png",
+      description: "I built my portfolio website with Next.js to explore next.js possibilities. Specially the navigation. I am using nextui for html elements and tailwind css for styles."
     },
     {
-      title: "Ts-Express-React App",
-      stack: "Full Stack - Contributor",
-      siteLink: "https://github.com/saro9588/typescript-express-react",
-      learnMoreLink: "/projects/ts-express-react",
-      image: "/ts-express-react.png",
-    },
-    {
-      title: "JS-Practice-Problems",
-      stack: "JavaScript",
-      siteLink: "https://github.com/saro9588/daily-js-practice",
-      learnMoreLink: "/projects/js-practice-problems",
-      image: "/javascript.webp",
+      title: "Bank App v1",
+      stack: "Full Stack - MIT xPro Capstone Project",
+      siteLink: "https://saro-babikianfullstackbankingapp.netlify.app/#",
+      image: "/badbank.png",
+      description:"Note: I stopped hosting this application on heroku. You'll get a server error when interacting with the app. It was a capstione project for my coding bootcamp"
     },
   ];
 
@@ -112,7 +146,7 @@ const projects = () => {
                   </Card>
                 </div>
                 <div className={`flex-1 md:w-1/2 p-4 ${index % 2 === 0 ? "" : "md:order-1"}`}>
-                  <p className="text-lg">Additional Information about {project.title}</p>
+                  <p className="p-heading text-lg">Additional Information about - {project.title}:</p>
                   {project.description}
                 </div>
               </div>

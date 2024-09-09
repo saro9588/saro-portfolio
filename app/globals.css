@@ -156,3 +156,8 @@ body {
 .animate-flash {
   animation: flash 1.5s infinite;
 }
+
+.p-heading {
+  font-size: large;
+  font-weight: 600;
+}

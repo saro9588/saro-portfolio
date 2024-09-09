@@ -23,7 +23,7 @@ export default function Home() {
                 src="/dev.png"
               />
             </Link>
-            <div className="flex justify-center md:mt-0"><p className="animate-flash">Check me out!</p></div>
+            <div className="flex justify-center md:mt-0"><p className="animate-flash">Check out my code!</p></div>
           </div>
       
         </div>

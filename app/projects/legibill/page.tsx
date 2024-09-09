@@ -21,7 +21,7 @@ const page = () => {
             I am a contirbutor to this project.
           </p>
           <p>
-            LegiBill helps curious users navigate{" "}
+            LegiBill helps curious users navigate
             <Link
               className="text-blue-600"
               href="https://legiscan.com/"
