@@ -8,8 +8,8 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
-      <nav className="py-3 mx-2">
-        <div className="flex h-7 justify-center items-center mx-auto max-w-screen-lg space-x-2">
+      <nav className="py-3 max-w-7xl mx-auto md:px-5 px-5">
+        <div className="flex h-7 justify-start items-center space-x-2">
           <Link
             className={`link ${
               pathname === "/" ? "text-white dark:text-red-200" : ""
