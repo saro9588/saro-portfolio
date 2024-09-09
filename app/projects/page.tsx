@@ -86,7 +86,7 @@ const projects = () => {
       title: "Portfolio Website",
       stack: "Full Stack",
       siteLink: "https://github.com/saro9588/saro-portfolio",
-      image: "/Portfolio.png",
+      image: "/portfolio.png",
       description: "I built my portfolio website with Next.js to explore next.js possibilities. Specially the navigation. I am using nextui for html elements and tailwind css for styles."
     },
     {
