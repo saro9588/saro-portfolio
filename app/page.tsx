@@ -1,13 +1,14 @@
 import React from "react";
 import { Image } from "@nextui-org/react";
 import Link from "next/link";
+import { CgEnter } from "react-icons/cg";
 
 export default function Home() {
   return (
     <div className="text-default-800 dark:text-white light:text-black bg-blue-50">
       <div className="bg-blue-50 py-10 pb-0 max-w-7xl mx-auto">
         <div className="parent">
-          <div className="flex justify-center">
+          <div className="child flex justify-center">
             <p className="">
               I am a LA based software developer with experience in HTML, CSS,
               JavaScript, Java & Spring Boot and the MERN stack. I am a recent graduate of the MIT
@@ -15,14 +16,16 @@ export default function Home() {
               WordPress websites.
             </p>
           </div>
-          <div className="gird grid-cols-1 md:grid-cols-1 md:justify-self-center">
+          <div className="child gird grid-cols-1 md:grid-cols-1 md:justify-self-center ">
+            <div className="flex justify-center">
             <Link href="/projects">
               <Image
-                alt="Breathing app icon"
-                className="w-full h-full hover:scale-105 transition-transform duration-300"
+                alt="empty html tag"
+                className="w-3/4 h-auto hover:scale-105 transition-transform duration-300 mx-auto"
                 src="/dev.png"
               />
-            </Link>
+              </Link>
+              </div>
             <div className="flex justify-center md:mt-0"><p className="animate-flash">Check out my code!</p></div>
           </div>
         </div>

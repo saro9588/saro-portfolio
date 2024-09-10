@@ -89,6 +89,7 @@ body {
 .child {
   flex: 1;
   justify-self: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
